@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <article>
+        <h1>Aanmelden</h1>
+<p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+lopen de studenten stage, in het tweede en afstudeerjaar.
+CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+Amsterdam.
+Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+Voor vragen of opmerkingen kunt u contact <a href="url">contact</a> met ons op.</p>
+        <form>
+            <fieldset>
+                <legend>Contactgegevens:</legend>
+
+                    <label>Naam: <input type="text"> </label><br>
+                    <label>Bedrijf:<input type="text"> </label><br>
+                    <label>Adres:<input type="text"> </label><br>
+                    <label>Postcode:<input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}"></label><br>
+                    <label>Plaats:<input type="text"></label><br>
+                    <label>Telefoon:<input type="tel"></label><br>
+                    <label>Email:<input type="email"></label><br>
+            </fieldset>
+
+                <fieldset>
+                    <legend>Ik wil mijn aanmelden:</legend>
+
+                    <label><input type="radio" name="project" value="#">Voor een project </label><br>
+                    <label><input type="radio" name="stage" value="#">Als stagebedrijf </label><br>
+                </fieldset>
+        </form>
+
+    </article>
+           <form>
+            <fieldset>
+                <legend>Project</legend>
+                <label>Titel:<input type="text"></label><br>
+                <label>Opdrachtomschrijving: <textarea name="Opdrachtomschrijving" rows="6" cols="21" readonly ></textarea> </label><br>
+                <label>Doelgroepomschrijving:<textarea name="Doelgroepomschrijving" rows="6" cols="21" readonly></textarea> </label><br>
+                <label>Doelstelling:<textarea name="Doelstelling" rows="6" cols="21" readonly ></textarea></label><br>
+                <label>Looptijd:<input type="text" value="#" readonly></label><br>
+                <label>Deadline:<input type="text" value="#" readonly></label><br>
+                Geschikt voor:
+                <ol>
+                    <label><input type="checkbox" name="student" value="eerstejaars">Eerstejaars studenten</label><br>
+                    <label><input type="checkbox" name="student" value="tweedejaars">Tweedejaars studenten</label><br>
+                    <label><input type="checkbox" name="student" value="derdejaars">Derdejaars studenten</label><br>
+                    <label><input type="checkbox" name="student" value="afstudeer">Afstudeer studenten</label><br>
+                    <label><input type="checkbox" name="student" value="onbekend">onbekend</label><br>
+
+                </ol>
+            </fieldset>
+        </form>
+            <form>
+                <fieldset>
+                    <legend>Stage</legend>
+                    Geschikt voor:<br>
+
+                    <label>Tweedejaarse studenten<input type="radio" name="Tweedejaarse studenten" value="#" ></label>
+                    <label>Afstudeer studenten<input type="radio" name="Afstudeer studenten" value="#" ></label>
+                    <label>Onbekend<input type="radio" name="Onbekend" value="#"></label>
+
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <legend>Hoe lang is de stage?</legend>
+                    <label>10 weken<input type="radio" name="10 weken" value="#"></label>
+                    <label>20 weken<input type="radio" name="20 weken" value="#"></label>
+                    <label>begin datum<input type="text"></label>
+                </fieldset>
+            </form>
+                <form>
+                    <fieldset>
+                        <legend>Beschrijving stage</legend>
+                        <label>Bedrijf:<input type="text"></label><br>
+                        <label>Adres:<input type="text"></label><br>
+                        <label>Postcode:<input type="text" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}"></label><br>
+                        <label>Plaats:<input type="text"></label><br>
+                        <label>Sector:<input type="text"></label><br>
+                        <label>Core business:<textarea name="Core business" rows="6" cols="21"></textarea></label><br>
+                        <br><br>
+                          <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+
+</body>
+</html>
